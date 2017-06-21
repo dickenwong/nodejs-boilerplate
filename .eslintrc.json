@@ -1,0 +1,33 @@
+{
+    "extends": "airbnb",
+    "plugins": [
+        "react"
+    ],
+    "env": {
+        "mocha": true,
+        "es6": true
+    },
+    "rules": {
+        "no-use-before-define": ["error", "nofunc"],
+        "no-param-reassign": "off",
+        "no-unused-vars": ["error", { "vars": "all", "args": "none" }],
+        "no-console": "off",
+        "strict": ["error", "safe"],
+        "no-empty": ["error", { "allowEmptyCatch": true }],
+        "no-shadow": "off",
+        "no-underscore-dangle": "off"
+    },
+    "parserOptions": {
+        "sourceType": "script",
+        "ecmaVersion": 7
+    },
+    "globals": {
+        "window": true,
+        "angular": true,
+        "_": true,
+        "Swiped": true,
+        "Parse": true,
+        "moment": true
+    },
+    "root": true
+}
